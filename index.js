@@ -55,9 +55,7 @@ module.exports = function GatheringMarkers(mod) {
 	}
 
 	function spawnMark(idRef, loc) {
-        console.log('b ' + loc.z);
         loc.z -= 100;
-        console.log('a' + loc.z);
 		mod.send('S_SPAWN_DROPITEM', 6, {
 			gameId: idRef,
 			loc:loc,
