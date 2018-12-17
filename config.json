@@ -1,9 +1,9 @@
 {
-	"enabled": true,
-	"markenabled": true,
-	"messager": false,
+    "enabled": true,
+    "markenabled": true,
+    "messager": false,
     "alerts": false,
-	"Item_ID": 98260,
+    "Item_ID": 98260,
     "whiteList": [1,2,3,4,5,6,101,102,103,104,105,106,201,202,203,204,205,206],
     "markList": [202,203,204]
 }
